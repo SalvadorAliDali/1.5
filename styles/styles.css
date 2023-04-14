@@ -44,35 +44,35 @@ body{
     border: 2px solid #FF3E79;
     border-radius: 20px;
 
-    background-image: url(/images/dropdown.svg);
+    background-image: url(../images/dropdown.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 
 .mod-lenovo {
-    background-image: url(/images/Bitmaplenovo.png);
+    background-image: url(../images/Bitmaplenovo.png);
 }
 .mod-samsung {
-    background-image: url(/images/Bitmapsamsung.png);
+    background-image: url(../images/Bitmapsamsung.png);
 }
 .mod-appele {
-    background-image: url(/images//Bitmapapple.png);
+    background-image: url(../images//Bitmapapple.png);
 }
 .mod-viewsonic {
-    background-image: url(/images/BitmapVeiwSonic.png);
+    background-image: url(../images/BitmapVeiwSonic.png);
 }
 .mod-bosch {
-    background-image: url(/images/Bitmapbosch.png);
+    background-image: url(../images/Bitmapbosch.png);
 }
 .mod-hp {
-    background-image: url(/images/Bitmaphp.png);
+    background-image: url(../images/Bitmaphp.png);
 }
 .mod-acer {
-    background-image: url(/images//Bitmapacer.png);
+    background-image: url(../images//Bitmapacer.png);
 }
 .mod-sony {
-    background-image: url(/images/Bitmapsony.png);
+    background-image: url(../images/Bitmapsony.png);
 }
 
 .toggle-btn {
@@ -84,7 +84,7 @@ body{
 
     background-color: #fff;
     border: none;
-    background-image: url(/images/btn-more-arrow.svg);
+    background-image: url(../images/btn-more-arrow.svg);
     background-repeat: no-repeat;
     background-position: left center;
 
