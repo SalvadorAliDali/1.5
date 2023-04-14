@@ -1,0 +1,197 @@
+@import url(/styles/fonts.css);
+body{
+    font-family: 'TT Lakes Regular', sans-serif;
+}
+.swiper {
+    max-width: 600px;
+    height: 120px;
+  }
+
+.swiper-wrapper {
+    padding-left: 20px;
+    
+}
+
+.wrapper {
+    padding-left: 10px;
+}
+
+
+
+.block-topper {
+    padding: 16px 0 16px 32px;
+}
+
+.card {
+    display: inline-block;
+    max-width: 240px;
+    max-height: 72px;
+
+    padding: 16px 16px 16px 184px;
+
+    background-position: 20px center;
+    background-repeat: no-repeat;
+
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+}
+
+.arrow {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid #FF3E79;
+    border-radius: 20px;
+
+    background-image: url(/images/dropdown.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.mod-lenovo {
+    background-image: url(/images/Bitmaplenovo.png);
+}
+.mod-samsung {
+    background-image: url(/images/Bitmapsamsung.png);
+}
+.mod-appele {
+    background-image: url(/images//Bitmapapple.png);
+}
+.mod-viewsonic {
+    background-image: url(/images/BitmapVeiwSonic.png);
+}
+.mod-bosch {
+    background-image: url(/images/Bitmapbosch.png);
+}
+.mod-hp {
+    background-image: url(/images/Bitmaphp.png);
+}
+.mod-acer {
+    background-image: url(/images//Bitmapacer.png);
+}
+.mod-sony {
+    background-image: url(/images/Bitmapsony.png);
+}
+
+.toggle-btn {
+    display: none;
+
+    padding-left: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    background-color: #fff;
+    border: none;
+    background-image: url(/images/btn-more-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+
+@media (min-width: 769px) {
+
+        .swiper {
+            max-width: 200px;
+            height: 120px;
+            
+        }
+
+        .swiper-wrapper {
+            
+            display: grid;
+
+            grid-template-columns: 224px 224px 224px;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+        .swiper-slide:nth-last-child(-n+3) {
+            display: none;
+        }
+
+        
+    .card {
+        display: inline-block;
+        box-sizing: border-box;
+        max-width: 224px;
+        height: 72px;
+
+        padding: 16px 16px 0px 168px;
+
+        background-position: 20px center;
+        background-repeat: no-repeat;
+
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+    }
+
+    .swiper-wrapper :focus-within + .show-more {
+        display: none;
+      }
+      
+      .swiper-wrapper :focus-within ~ :nth-last-child(-n+3) {
+        display: inline-block;
+      }
+
+      .toggle-btn {
+        display: block;
+    }
+    
+    
+}
+
+@media (min-width: 1120px) {
+
+    .swiper {
+        max-width: 200px;
+        height: 120px;
+        
+    }
+
+    .swiper-wrapper {
+        
+        display: grid;
+
+        grid-template-columns: 224px 224px 224px 224px;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .swiper-slide:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    
+.card {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 224px;
+    height: 72px;
+
+    padding: 16px 16px 0px 168px;
+
+    background-position: 20px center;
+    background-repeat: no-repeat;
+
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+}
+
+.swiper-wrapper :focus-within + .show-more {
+    display: none;
+  }
+  
+  .swiper-wrapper :focus-within ~ :nth-last-child(-n+3) {
+    display: inline-block;
+  }
+
+  .toggle-btn {
+    display: block;
+}
+
+
+}
+
